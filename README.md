@@ -1,5 +1,5 @@
 # ServoSwerve
-Central location for 3D Printed FTC Robot Project
+A 3D Printed FTC Robot Project
 
 # Concept
 This is a hobby project, trying to bring swerve-drive, which is popular in FRC robots, to an FTC-legal robot. It also uses only 4 motors and 4 servos, allowing for additional motors for other mechanisms. Additionally, the idea of the project was to use as much 3D printing as possible, and otherwise cheap components. The servos used in the prototype are cheap and have no feedback, but they could be upgraded to more powerful and/or more capable options.
@@ -12,15 +12,16 @@ The total BOM is ~300 USD, which does not include the [Control Hub, Driver Hub a
 # BOM
 | Part | Quantity | Cost (USD) | Link |
 |------|----------|------------|------|
-| Heat Set Inserts   | ~50   | $5 per 200  | https://a.co/d/6xFzpqj |
-| 608-2RS Bearings   | 20    | $18 per 100 | https://a.co/d/bSbgQkI |
-| MG996R Servo       | 4     | $18 per 4   | https://a.co/d/boWs8Dm |
-| 6005-2RS Bearings  | 4     | $18 per 10  | https://a.co/d/0550xRT |
-| M3 12mm SHCS       | ~50   | $9 per 100  | https://a.co/d/3k4A5e6 |
-| TPU Filament       | 30g   | $23 per kg  | https://a.co/d/iWYk3IK |
-| PLA Filament       | 1.8kg | $28 per kg  | https://a.co/d/3Dp54A6 |
-| Rev Ultraplanetary | 4     | $45 per ea  | https://www.revrobotics.com/rev-41-1600/ |
-| 5mm x 75mm Hex     | 4     | $12 per 4   | https://www.revrobotics.com/5mm-Hex-Shafts/ (REV-41-1347-PK4) |
+| Heat Set Insert      | ~100  | $5 per 200  | https://a.co/d/6xFzpqj |
+| 608-2RS Bearing      | 20    | $18 per 100 | https://a.co/d/bSbgQkI |
+| MG996R Servo         | 4     | $18 per 4   | https://a.co/d/boWs8Dm |
+| 6005-2RS Bearing     | 4     | $18 per 10  | https://a.co/d/0550xRT |
+| 51100 Thrust Bearing | 4     | $6.5 per 2  | https://a.co/d/3elGBIm |
+| M3 12mm SHCS         | ~100  | $9 per 100  | https://a.co/d/3k4A5e6 |
+| TPU Filament         | 30g   | $23 per kg  | https://a.co/d/iWYk3IK |
+| PLA Filament         | 1.8kg | $28 per kg  | https://a.co/d/3Dp54A6 |
+| Rev Ultraplanetary   | 4     | $45 per ea  | https://www.revrobotics.com/rev-41-1600/ |
+| 5mm x 75mm Hex       | 4     | $12 per 4   | https://www.revrobotics.com/5mm-Hex-Shafts/ (REV-41-1347-PK4) |
 
 # Printer
 I printed on a Bambu X1C, but the swerve modules should be printable even on an A1 Mini (although the chassis as currently designed would not fit).
@@ -29,3 +30,8 @@ Strength is probably not needed for all parts, but the main swerve swivelling pa
 
 # Code
 Basic swerve drive code including both robot-oriented and field-oriented control schemes was coded in Blocks as a proof of concept.
+
+# DECODE 2025-26 FTC Game
+A very basic launcher for the DECODE game was also made which can be seen [here](https://cad.onshape.com/documents/7acbae5e4e83b99190cd578b/w/a2e122c798bb634061b1df87/e/667fd8da5ea4ed8a1680418e), or by setting the `Game` variable in the main assembly to `DECODE`
+
+You can check out some videos of it in action [here](https://www.youtube.com/watch?v=k3g8-rpmEuQ) and [here](https://www.youtube.com/watch?v=6NKLgMxl1AU)
