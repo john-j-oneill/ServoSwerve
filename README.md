@@ -7,7 +7,7 @@ https://cad.onshape.com/documents/ad19ade7c9992a06461c1741/w/d23e84fc5c3f91f4c1d
 
 # BOM
 | Part | Quantity | Cost (USD) | Link |
--------------------------------------
+|------|----------|------------|------|
 | Heat Set Inserts  | ~50   | $5 per 200  | https://a.co/d/6xFzpqj |
 | 608-2RS Bearings  | 20    | $18 per 100 | https://a.co/d/bSbgQkI |
 | MG996R Servo      | 4     | $18 per 4   | https://a.co/d/boWs8Dm |
